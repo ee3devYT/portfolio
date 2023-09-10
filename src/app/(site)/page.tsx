@@ -1,10 +1,12 @@
 'use client'
-import ComingSoonModal from '../components/ui/modal'
+
+import WaterDropGrid from "../components/portfolio/hero/waterDropGrid"
+import ProfileCard from "../components/portfolio/profilecard"
 
 export default function Home() {
   return (
-   <div className='flex justify-center items-center h-screen'>
-    <ComingSoonModal/>
+   <div className="cursor-crosshair">
+     <WaterDropGrid/>
    </div>
   )
 }
